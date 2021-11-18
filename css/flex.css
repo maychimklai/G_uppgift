@@ -1,10 +1,21 @@
+/*** Display***/ 
 .d-flex{
     /* Ger oss möjlighet att kunna justera sidan utifrån flex-ramverk */
     /* Gör att div'arna lägger sig på samma rad (utan radbrytning)*/
     display: flex;
 }
 
+/*** Flex ***/ 
 .flex-grow{
     /* 1 = utöka bredden 0 = utökar inte bredden*/
     flex-grow: 1;
+}
+
+/*** Align & Justify ***/ 
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center{ /* I höjdled*/
+    align-items: center;
 }

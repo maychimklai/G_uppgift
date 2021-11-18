@@ -13,7 +13,85 @@
     --color-transparent: transparent;
     --color-border: #dee2e6; 
     --color-dark-transparent: rgba(0,0,0,0.2);
+
+    /***** Display *****/
+    --display-xxs: 1rem;
+    --display-xs: 1.4rem;
+    --display-sm: 1.6rem;
+    --display-md: 1.8rem;
+    --display-lg: 2rem;
+    --display-xl: 2.5rem;
+    --display-xxl: 3rem;
+
+    /***** Line height *****/
+    --line--height-sm: 1rem; 
+    --line--height-md: 1.6rem; 
+    --line--height-lg: 3rem; 
+
+    /***** Distance *****/
+    --distance-0: 0rem; 
+    --distance-1: .25rem;
+    --distance-2: .5rem;
+    --distance-3: .75rem;
+    --distance-4: 1rem;
+    --distance-5: 1.25rem;
+    --distance-6: 1.5rem;
+    --distance-7: 1.75rem;
+    --distance-8: 2rem;
+    --distance-9: 2.25rem;
+    --distance-10: 2.5rem;
+    --distance-11: 2.75rem;
+    --distance-12: 3.25rem;
+    --distance-13: 3.5rem;
+    --distance-14: 3.75rem;
+    --distance-15: 4rem;
+
+    /***** Shadows *****/
+    --shadow-small-light: .15rem .15rem 0 rgba(0,0,0,0.1);
+    --shadow-large-light: .25rem .25rem 0 rgba(0,0,0,0.1);
+
+    /***** Borders *****/
+    --border-xs-white: 0.1rem solid var(--color-white);
+    --border-xs: .1rem solid var(--color-light);
+    --border-sm: .2 solid var(--color-light);
+    --border-lg: .4rem solid var(--color-white);
+
+    --border-radium-sm: .25rem;
+    --border-success: .2rem solid var(--border-color-success);
+    --border-transparent: .1 solid var(--color-transparent);
+
 }
+
+*{
+    /* Nollställer alla element med *, alla margin och padding = 0 */
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit; 
+}
+
+html { /* Man vill justera för alla HTML-element*/
+    box-sizing: border-box; 
+    font-size: 62.5% /* 1rem = 10px, 10px/16px = 62.5% */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--color-dark);
+    font-size: var(--display-sm);
+    min-height: 100vh;
+}
+
+/* ??? */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { font-family: "Dosis", "Open Sans", sans-serif; 
+    font-weight: 700; letter-spacing: .05rem;}
+.h1, h1 { font-size: var(--distance-13);}
 
 /***** Background Colors *****/
 .bg-primary, .btn-primary { background-color: var(--color-primary);}

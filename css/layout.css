@@ -68,6 +68,7 @@
 /*** Typography ***/
 .text-decoration-none { text-decoration: none;}
 .text-center { text-align: center;} /* Horisontellt */
+.text-uppercase { text-transform: uppercase;}
 
 .text-size-xxs { font-size: var(--display-xxs);}
 .text-size-xs { font-size: var(--display-xs);}
@@ -103,9 +104,8 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 .border-small-white { border: var(--border-xs-white); }
 .border-radius { border-radius: var(--border-radium-sm);}
 .border-bottom-xs { border-bottom: var(--border-xs);}
-
-/*** ***/
 .border-sm { border: var(--border-sm);}
+.border-transparent { border:var(--border-transparent);}
 
 /*** Position ***/
 .position-relative { position:relative !important; }

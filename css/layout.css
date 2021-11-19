@@ -49,6 +49,9 @@
 .pr-4, .px-4 { padding-right: var(--distance-4); }
 .pl-4, .px-4 { padding-left: var(--distance-4); }
 
+.pt-2, .py-2 { padding-top: var(--distance-2); }
+.pb-2, .py-2 { padding-bottom: var(--distance-2); }
+
 /*** Nav-image ***/
 .logo-width{ max-width: 13rem;}
 .img-lg-width { max-width: 60%;}
@@ -111,6 +114,7 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 .border-radius { border-radius: var(--border-radium-sm);}
 .border-bottom-xs { border-bottom: var(--border-xs);}
 .border-sm { border: var(--border-sm);}
+.border-lg { border: var(--border-lg);}
 .border-transparent { border:var(--border-transparent);}
 
 /*** Position ***/
@@ -131,3 +135,13 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 /*** Icons ***/
 .icon-feature { width: 7.6rem; height: 7.6rem; padding: 0.375;}
 .icon-circle { width: 6.2rem; height: 6.2rem; line-height: 6rem;}
+
+/*** Statistics background img ***/
+.statistics-image{
+    /* ../images --> för att gå ut i folder och in i images */
+    background-image: url('../images/fun-facts/fun-facts-bg-img.jpg');
+    /* inställning för bildrepetition, om man inte ställer den så kommer bilden att repetera sig 
+    om den är för liten för containern, background-size: cover gör att bilden täcker hela containern 
+    background-position:center --> centrum av bilden ligger i centrum av containern */
+    background-repeat: no-repeat; background-size: cover; background-position: center;
+}

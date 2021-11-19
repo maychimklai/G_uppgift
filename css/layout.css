@@ -41,6 +41,9 @@
 .p-12 { padding: var(--distance-12); }
 .p-15 { padding: var(--distance-15); }
 
+.pr-12, .px-12 { padding-right: var(--distance-12); }
+.pl-12, .px-12 { padding-left: var(--distance-12); }
+
 /*** Nav-image ***/
 .logo-width{ max-width: 13rem;}
 
@@ -78,10 +81,11 @@
 
 
 /*** Circle ***/
-.circle { border-radius: 100%;}
+.circle { border-radius: 100%;} 
 
 /*** Shadows ***/
 .shadow-sm { box-shadow: var(--shadow-small-light);}
+.shadow-lg { box-shadow: var(--shadow-large-light);}
 
 /*** Buttons ***/
 /* Nav --> Div --> alla a-taggar förutom första */
@@ -98,6 +102,9 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 .border-radius { border-radius: var(--border-radium-sm);}
 .border-bottom-xs { border-bottom: var(--border-xs);}
 
+/*** ***/
+.border-sm { border: var(--border-sm);}
+
 /*** Position ***/
 .position-relative { position:relative !important; }
 .position-absolute { position:absolute !important; }
@@ -109,3 +116,10 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
     left: 50%;
     transform: translate(-50%,-50%); /* För att få element precis i mitten*/
 }
+
+/*** Features ***/
+.f-width { max-width: 33%;}
+
+/*** Icons ***/
+.icon-feature { width: 7.6rem; height: 7.6rem; padding: 0.375;}
+.icon-circle { width: 6.2rem; height: 6.2rem; line-height: 6rem;}

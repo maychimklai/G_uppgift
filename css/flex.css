@@ -16,6 +16,8 @@
 
 .flex-row-reverse { flex-direction: row-reverse;}
 
+/* Anpassar positionen på element efter skärmstorlek*/
+.flex-wrap { flex-wrap: wrap;}
 
 /*** Align & Justify ***/ 
 .justify-content-between {

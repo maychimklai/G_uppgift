@@ -44,8 +44,25 @@
 /*** Nav-image ***/
 .logo-width{ max-width: 13rem;}
 
+/*** Slideshow ***/
+.slider-width { width: 400%;} /* 100% per image */
+.slider-container { width: 25%;} /* Display 1 of 4 images*/
+.slider-image { width: 100%; object-fit: cover; } /* object-fit: cover; täcker hela containern */
+/* .slider-animation { animation: 30s slider-keyframes infinite;}*/
+/* Slider */
+@keyframes slider-keyframes {
+    0% { left: 0%;}
+    15% { left: -100%;}
+    30% { left: -200%;}
+    45% { left: -300%;}
+    60% { left: -200%;}
+    75% { left: -100%;}
+    100% { left: 0%;}
+}
+
 /*** Typography ***/
 .text-decoration-none { text-decoration: none;}
+.text-center { text-align: center;} /* Horisontellt */
 
 .text-size-xxs { font-size: var(--display-xxs);}
 .text-size-xs { font-size: var(--display-xs);}
@@ -84,3 +101,11 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 /*** Position ***/
 .position-relative { position:relative !important; }
 .position-absolute { position:absolute !important; }
+
+.overflow-hidden { overflow: hidden; }
+
+.centerXY {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /* För att få element precis i mitten*/
+}

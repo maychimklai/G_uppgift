@@ -64,7 +64,7 @@
 .slider-width { width: 400%;} /* 100% per image */
 .slider-container { width: 25%;} /* Display 1 of 4 images*/
 .slider-image { width: 100%; object-fit: cover; } /* object-fit: cover; täcker hela containern */
-/* .slider-animation { animation: 30s slider-keyframes infinite;}*/
+.slider-animation { animation: 30s slider-keyframes infinite;}
 /* Slider */
 @keyframes slider-keyframes {
     0% { left: 0%;}

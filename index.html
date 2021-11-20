@@ -46,7 +46,7 @@
             <img class="logo-width" src="images/logo-school.png">
 
             <!-- Container för alla länkar i mitten  -->
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between d-sm-none">
 
                 <a href="#" class="d-flex flex-column align-items-center text-decoration-none">
                     <!-- Div används för att man lätt ska kunna centrera i-taggen och ikonen på ett enkelt sätt,
@@ -85,7 +85,7 @@
                     <span
                         class="text-white text-size-xxs position-absolute icon-badge bg-success circle border-small-white">3</span>
                 </a>
-                <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative">
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative d-none d-sm-block">
                     <div class="d-flex align-items-center justify-content-center bg-info p-4 shadow-sm border-radius">
                         <i class="fa fa-bars text-white"></i>
                     </div>
@@ -148,28 +148,28 @@
         <!-- Position relative så att rutan i mitten kan vara position-absolute -->
         <figure class="d-flex position-relative slider-width slider-animation">
             <div class="slider-container position-relative">
-                <div class="position-absolute centerXY bg-dark-transparent text-light text-center p-4">
+                <div class="position-absolute centerXY bg-dark-transparent text-light text-center p-4 heading-xxs-width">
                     <h1>School Website</h1>
                     <p>Lorem ipsum dolor sit amet consectetur...</p>
                 </div>
                 <img src="images/Slider/img-1.jpg" class="slider-image" alt="Children at school">
             </div>
             <div class="slider-container position-relative">
-                <div class="position-absolute centerXY bg-dark-transparent text-light text-center p-4">
+                <div class="position-absolute centerXY bg-dark-transparent text-light text-center p-4 heading-xxs-width">
                     <h1>School Website</h1>
                     <p>Lorem ipsum dolor sit amet consectetur...</p>
                 </div>
                 <img src="images/Slider/img-2.jpg" class="slider-image" alt="Children at school">
             </div>
             <div class="slider-container position-relative">
-                <div class="position-absolute centerXY bg-dark-transparent text-light text-center p-4">
+                <div class="position-absolute centerXY bg-dark-transparent text-light text-center p-4 heading-xxs-width">
                     <h1>School Website</h1>
                     <p>Lorem ipsum dolor sit amet consectetur...</p>
                 </div>
                 <img src="images/Slider/img-3.jpg" class="slider-image" alt="Children at school">
             </div>
             <div class="slider-container position-relative">
-                <div class="position-absolute centerXY bg-dark-transparent text-light text-center p-4">
+                <div class="position-absolute centerXY bg-dark-transparent text-light text-center p-4 heading-xxs-width">
                     <h1>School Website</h1>
                     <p>Lorem ipsum dolor sit amet consectetur...</p>
                 </div>
@@ -252,7 +252,7 @@
             </div>
 
             <!-- En feature -->
-            <div class="d-flex f-width px-4">
+            <div class="d-flex f-width px-4 mb-sm-12">
                 <!-- Circle and Icon -->
                 <div class="mr-4">
                     <!-- Färgade cirkeln -->
@@ -272,7 +272,7 @@
             </div>
 
             <!-- En feature -->
-            <div class="d-flex f-width px-4">
+            <div class="d-flex f-width px-4 mb-sm-12">
                 <!-- Circle and Icon -->
                 <div class="mr-4">
                     <!-- Färgade cirkeln -->
@@ -341,14 +341,14 @@
     <section class="d-flex justify-content-center align-items-center">
         <!-- Images -->
         <div class="d-flex justify-content-center flex-wrap max-width">
-            <img src="images/gallery/gallery-img1.jpg" class="border-radius m-6">
-            <img src="images/gallery/gallery-img2.jpg" class="border-radius m-6">
-            <img src="images/gallery/gallery-img3.jpg" class="border-radius m-6">
-            <img src="images/gallery/gallery-img4.jpg" class="border-radius m-6">
-            <img src="images/gallery/gallery-img5.jpg" class="border-radius m-6">
-            <img src="images/gallery/gallery-img6.jpg" class="border-radius m-6">
-            <img src="images/gallery/gallery-img7.jpg" class="border-radius m-6">
-            <img src="images/gallery/gallery-img8.jpg" class="border-radius m-6">
+            <img src="images/gallery/gallery-img1.jpg" class="border-radius m-6 img-sm-width">
+            <img src="images/gallery/gallery-img2.jpg" class="border-radius m-6 img-sm-width">
+            <img src="images/gallery/gallery-img3.jpg" class="border-radius m-6 img-sm-width">
+            <img src="images/gallery/gallery-img4.jpg" class="border-radius m-6 img-sm-width">
+            <img src="images/gallery/gallery-img5.jpg" class="border-radius m-6 img-sm-width">
+            <img src="images/gallery/gallery-img6.jpg" class="border-radius m-6 img-sm-width">
+            <img src="images/gallery/gallery-img7.jpg" class="border-radius m-6 img-sm-width">
+            <img src="images/gallery/gallery-img8.jpg" class="border-radius m-6 img-sm-width">
         </div>
     </section>
 
@@ -404,8 +404,8 @@
         <div class="d-flex justify-content-center flex-wrap text-white max-width mx-auto">
 
             <!-- Classes Card-->
-            <div class="d-flex position-relative overflow-hidden border-radius m-6 card-width">
-                <img src="images/events/events-img1.jpg" class="img-lg-width" alt="Children playing at school">
+            <div class="d-flex flex-xs-column position-relative overflow-hidden border-radius m-6 card-width">
+                <img src="images/events/events-img1.jpg" class="img-lg-width img-xs-width" alt="Children playing at school">
                 <div class="d-flex flex-column bg-info p-6">
                     <h2 class="mb-6">Lorem ipsum dolor</h2>
                     <div><i class="far fa-calendar-alt mr-4 mb-4"></i>Age 2 to 4 Years</div>
@@ -423,8 +423,8 @@
             </div>
 
             <!-- Classes Card-->
-            <div class="d-flex position-relative overflow-hidden border-radius m-6 card-width">
-                <img src="images/events/events-img2.jpg" class="img-lg-width" alt="Children playing at school">
+            <div class="d-flex flex-xs-column position-relative overflow-hidden border-radius m-6 card-width">
+                <img src="images/events/events-img2.jpg" class="img-lg-width img-xs-width" alt="Children playing at school">
                 <div class="d-flex flex-column bg-cozy p-6">
                     <h2 class="mb-6">Lorem ipsum dolor</h2>
                     <div><i class="far fa-calendar-alt mr-4 mb-4"></i>Age 2 to 4 Years</div>
@@ -442,8 +442,8 @@
             </div>
 
             <!-- Classes Card-->
-            <div class="d-flex position-relative overflow-hidden border-radius m-6 card-width">
-                <img src="images/events/events-img4.jpg" class="img-lg-width" alt="Children playing at school">
+            <div class="d-flex flex-xs-column position-relative overflow-hidden border-radius m-6 card-width">
+                <img src="images/events/events-img4.jpg" class="img-lg-width img-xs-width" alt="Children playing at school">
                 <div class="d-flex flex-column bg-success p-6">
                     <h2 class="mb-6">Lorem ipsum dolor</h2>
                     <div><i class="far fa-calendar-alt mr-4 mb-4"></i>Age 2 to 4 Years</div>
@@ -461,8 +461,8 @@
             </div>
 
             <!-- Classes Card-->
-            <div class="d-flex position-relative overflow-hidden border-radius m-6 card-width">
-                <img src="images/events/events-img3.jpg" class="img-lg-width" alt="Children playing at school">
+            <div class="d-flex flex-xs-column position-relative overflow-hidden border-radius m-6 card-width">
+                <img src="images/events/events-img3.jpg" class="img-lg-width img-xs-width" alt="Children playing at school">
                 <div class="d-flex flex-column bg-primary p-6">
                     <h2 class="mb-6">Lorem ipsum dolor</h2>
                     <div><i class="far fa-calendar-alt mr-4 mb-4"></i>Age 2 to 4 Years</div>
@@ -498,7 +498,7 @@
 
         <!-- Statistics Circles -->
         <div class="d-flex justify-content-center align-items-center text-center">
-            <div class="d-flex">
+            <div class="d-flex flex-sm-column">
                 <!-- Circle -->
                 <div class="d-flex flex-column m-6">
                     <div
@@ -561,7 +561,7 @@
 
     <!-- Footer -->
     <footer class="d-flex justify-content-center align-items-center">
-        <div class="d-flex justify-content-center max-width m-15">
+        <div class="d-flex justify-content-center max-width m-15 flex-sm-column">
             <!-- Address -->
             <div class="d-flex flex-column width-lg mr-6">
                 <img src="images/logo-school.png" class="logo-width mb-6" alt="KidZ School">
@@ -586,7 +586,7 @@
             </div>
 
             <!-- Form -->
-            <form class="d-flex flex-column flex-grow">
+            <form class="d-flex flex-column flex-grow mt-sm-12">
                 <h2 class="text-primary mb-2">Contact</h2>
                 <div class="position-relative mb-2">
                     <i class="fa fa-user text-success position-absolute icon-form-control"></i>
